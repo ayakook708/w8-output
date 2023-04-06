@@ -1,1 +1,28 @@
-
+/*
+grid
+*/
+.grid {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.grid-item {
+    margin: 0.5px;
+    border: 3px solid #fff;
+    background-color: bisque;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.grid-col-2 > .grid-item {
+    width: 50%;
+}
+.grid-col-3 > .grid-item {
+    width: 33.3%;
+}
+.grid-col-4 > .grid-item {
+    width: 23%;
+}

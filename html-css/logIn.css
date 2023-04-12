@@ -42,7 +42,13 @@ td {
     padding: 0 10px;
 }
 
-button {
+.input:hover {
+    color: #333;
+    background-color: lavender;
+    box-shadow: 5px 5px 10px violet;
+}
+
+.button {
     cursor: pointer;
     background-color: rgb(15, 108, 220);
     color: #fff;
@@ -52,6 +58,12 @@ button {
     height: 30px;
     border-radius: 7px;
     font-size: 68%;
+}
+
+.button:hover {
+    color: #333;
+    background-color: lavender;
+    box-shadow: 5px 5px 10px violet;
 }
 
 .announce {

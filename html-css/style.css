@@ -1,3 +1,11 @@
+body {
+    color: rgb(33, 5, 80);
+}
+
+h3 {
+    margin: 10px 0 0 50px;
+}
+
 /*
 grid
 */
@@ -10,19 +18,31 @@ grid
     justify-content: center;
 }
 .grid-item {
+    height: 80px;
     margin: 0.5px;
     border: 3px solid #fff;
     background-color: bisque;
     border-radius: 10px;
-    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
     cursor: pointer;
 }
+.grid-item:hover {
+    background-color: aqua;
+    color: rgb(244, 13, 13);
+}
+/* .grid-item > h4 {
+} */
 .grid-col-2 > .grid-item {
-    width: 50%;
+    width: 48%;
 }
 .grid-col-3 > .grid-item {
-    width: 33.3%;
+    width: 32%;
 }
 .grid-col-4 > .grid-item {
-    width: 23%;
+    width: 24%;
+}
+.grid-col-6 > .grid-item {
+    width: 16%;
 }
